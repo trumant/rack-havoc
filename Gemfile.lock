@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    rack-havoc (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.3)
+    rack (1.4.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rspec (2.9.0)
+      rspec-core (~> 2.9.0)
+      rspec-expectations (~> 2.9.0)
+      rspec-mocks (~> 2.9.0)
+    rspec-core (2.9.0)
+    rspec-expectations (2.9.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-havoc!
+  rack-test (= 0.6.1)
+  rspec (= 2.9)
